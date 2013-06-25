@@ -1,0 +1,17 @@
+{
+	"name"             : "logical-and/yandex_yml",
+	"description"      : "Yandex Market YML generator",
+	"license"          : "MIT",
+	"homepage"         : "http://www.symfony-project.org/plugins/sfYandexYMLPlugin/0_1_2",
+	"authors"          : [
+		{
+			"name" : "And",
+			"email": "logical_and@lavabit.com"
+		},
+		{
+			"name" : "Eugeny Fomin",
+			"email": "unknown@e.mail"
+		}
+	],
+	"minimum-stability": "beta"
+}
