@@ -13,5 +13,10 @@
 			"email": "unknown@e.mail"
 		}
 	],
-	"minimum-stability": "beta"
+	"minimum-stability": "beta",
+	"autoload": {
+		"psr-0": {
+			"Yandex\\Market\\": "lib/"
+		}
+	}
 }
