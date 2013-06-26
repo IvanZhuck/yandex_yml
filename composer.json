@@ -3,6 +3,7 @@
 	"description"      : "Yandex Market YML generator",
 	"license"          : "MIT",
 	"homepage"         : "http://www.symfony-project.org/plugins/sfYandexYMLPlugin/0_1_2",
+	"keywords"         : ["yandex", "market", "yandex-market", "yml", "xml"],
 	"authors"          : [
 		{
 			"name" : "And",
@@ -14,7 +15,7 @@
 		}
 	],
 	"minimum-stability": "beta",
-	"autoload": {
+	"autoload"         : {
 		"psr-0": {
 			"Yandex\\Market\\": "lib/"
 		}

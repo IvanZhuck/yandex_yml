@@ -131,7 +131,6 @@ class YML {
 
 	public function generateYML()
 	{
-
 		$xshop = $this->__xshop;
 
 		$xcurrencies = $xshop->appendChild(new DOMElement('currencies'));
@@ -153,6 +152,7 @@ class YML {
 		{
 			$xoffers->appendChild($this->__xml->importNode($offer->toXML()->documentElement, TRUE));
 		}
+		return $this;
 	}
 
 	/**
@@ -160,8 +160,16 @@ class YML {
 	 */
 	public function saveYML()
 	{
-
 		return $this->__xml->saveXML();
+	}
+
+	/**
+	 * @return string
+	 */
+	public function dumpYML()
+	{
+		$this->generateYML();
+		return $this->saveYML();
 	}
 
 	public function addCategory(YMLCategory $category)
